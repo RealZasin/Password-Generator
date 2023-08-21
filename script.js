@@ -1,4 +1,6 @@
-const generateEl = document.getElementById("generate-el")
+const generateEl = document.getElementById("generate-el");
+const pass1El = document.getElementById("pass1");
+const pass2El = document.getElementById("pass2");
 
 const characters = [
   "A",
@@ -94,10 +96,17 @@ const characters = [
   "/",
 ];
 
-generateEl.addEventListener("click", generatePassword())
+generateEl.addEventListener("click", () => {
+  pass1El.textContent = generatePassword();
+  pass2El.textContent = generatePassword();
+});
 
+function generatePassword() {
+  let password = ``;
+  for (let i = 0; i < 8; i++) {
+    let randomIndex = characters[Math.floor(Math.random() * characters.length)];
 
-
-function generatePassword () {
-    
+    password += randomIndex;
+  }
+  return password;
 }
