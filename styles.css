@@ -1,0 +1,65 @@
+body {
+    font-family: Karla;
+    background-color: #b4b9b6;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Karla', sans-serif;
+}
+
+#main {
+    width: 25rem;
+    padding: 3rem;
+    background-color: #1e2a37;
+    border-radius: 20px;
+    border: 4px solid white;
+}
+
+h1#green {
+    color: #4ae084;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+    
+}
+
+h1#white {
+    color: #fdfefd;
+    margin: 0px;
+}
+
+h3 {
+    color: #c4c8cb;
+    margin: 0px 0px 3rem 0px;
+}
+
+hr {
+    border: none;               /* Remove the default border */
+    height: 1px;                /* Set the height of the line */
+    background-color: #2a3747;     /* Set the color of the line */
+    margin-top: 20px;           /* Optional: Set the margin above the line */
+    margin-bottom: 20px;        /* Optional: Set the margin below the line */
+    max-width: 100%;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    background-color: #0fb980;
+    color: white;
+    border: 0px;
+}
+
+.password {
+    color: #51fb92;
+    background-color: #263547;
+    min-width: 7.8rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    margin: 0rem 1.5rem 0rem 0rem;
+    border-radius: 5px;
+    
+}
+
+#passwords-el {
+display: flex;
+
+}
